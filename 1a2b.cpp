@@ -11,11 +11,11 @@ int main()
 	char c, r[4], a[4];
 	int p, i, j, ca, cb;
 	srand(time(NULL));
-	printf("mode 1~4  easy to hard\n");
+	printf("mode 1~4  easy to hard\n");  
 	scanf("%d", &p);
 
-	/*循環讀取輸入緩衝區的數據，直到遇到回車符為止，
-	效果等效於：清空輸入緩衝區的所有數據，直到遇到回車符為止。*/
+	/*循環讀取輸入緩衝區的數據，直到遇到回車符?止，
+	效果等效於：清空輸入緩衝區的所有數據，直到遇到回車符?止。*/
 	while ((c = getchar()) != '\n');//https://www.twblogs.net/a/5e4e4ad7bd9eee101df49944
 
 	//選擇模式( 1:純數字 2:純數字 + 英文大寫 3:純數字 + 英文大小寫 4:ASCII碼33~126(10進位) )
