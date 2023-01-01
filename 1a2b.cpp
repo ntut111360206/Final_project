@@ -11,7 +11,7 @@ int main()
 	char c, r[4], a[4];
 	int p, i, j, ca, cb;
 	srand(time(NULL));
-	printf("mode 1~4  easy to hard\n");
+	printf("mode 1~4  easy to hard\n");  
 	scanf("%d", &p);
 
 	/*循環讀取輸入緩衝區的數據，直到遇到回車符?止，
