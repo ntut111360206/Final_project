@@ -1,0 +1,16 @@
+1a2b is a number guessing game when the computer generates a set of numbers
+
+(If it is a pure digital mode case 1) it is assumed to be 0123 (numbers cannot be repeated)
+
+When entering 3198 (numbers cannot be repeated)
+
+1a1b will be displayed (a means value pair && position pair, b means value pair && position error)
+
+The user must guess to 4a0b (all values and positions are correct), and the game ends.
+
+
+case 2 is numbers + uppercase English, the gameplay is the same as above
+
+case 3 is number + uppercase English + lowercase English
+
+case 4 for all ASCII codes
